@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Circle</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="hot_post">热门帖子</string>
+    <string name="logout">退出登录</string>
+    <string name="square">信息广场</string>
+    <string name="looking_for_sources">更多源</string>
+    <string name="discover">资讯发现</string>
+    <string name="profile">个人信息</string>
+    <string name="notification">消息通知</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_square"
+        android:id="@+id/fragment"
+        android:name="com.onemore.circle.SquareFragment"
+        />
+
+        <com.onemore.circle.view.UniversalLoadingView
+            android:id="@+id/loadingView"
+            app:bGradient="false"
+            app:radius="50dp"
+            app:bg_transparent="false"
+            app:circleColor="@android:color/holo_green_dark"
+            android:background="#00000000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.onemore.circle.view.UniversalLoadingView>
+
+    </RelativeLayout>
+</FrameLayout>
